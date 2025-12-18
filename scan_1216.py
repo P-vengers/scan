@@ -42,16 +42,16 @@ FORBIDDEN_IDX = set(EYE_L_IDX + EYE_R_IDX + MOUTH_IDX + NOSE_IDX)
 
 # 🔧 u–v 평면 상에서 부위별 확장 설정
 # 눈: 등방성 scale + 추가 vertical 확대
-EYE_MARGIN_SCALE   = 1.35   # 기본 hull 크기 배
+EYE_MARGIN_SCALE   = 1.36   # 기본 hull 크기 배
 EYE_VERT_EXTRA     = 2.3   # vertical 방향 추가 확대 계수
 
 # 코: 세로로 긴 직사각형, 가로/세로 따로 scale
-NOSE_MARGIN_SCALE_U = 1.5   # u 방향(좌우) 확대 배수
+NOSE_MARGIN_SCALE_U = 1.8   # u 방향(좌우) 확대 배수
 NOSE_MARGIN_SCALE_V = 1.6   # v 방향(위아래) 확대 배수 → 크게 할수록 세로로 길어짐
 
 
 # 입: 가로/세로 따로 scale → 세로(v) 쪽 더 크게(윗입술+인중 포함)
-MOUTH_MARGIN_SCALE_U = 1.35  # u 방향(좌우) 확대
+MOUTH_MARGIN_SCALE_U = 1.6  # u 방향(좌우) 확대
 MOUTH_MARGIN_SCALE_V = 3.5  # v 방향(위아래) 확대 → 인중까지 덮도록 크게
 
 
